@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <div id="input"></div>
+            <div id="output">0</div>
+        </div>
+
+        <div class="keys">
+            <div class="key--row">
+                <button id="CE" class="key key--ce col-4">CE</button>
+                <button id="delete" class="key key--del col-4">Del</button>
+                <button id="add" class="key key--operator col-4">+</button>
+            </div>
+            <div class="key--row">
+                <button id="sub" class="key key--operator col-4">-</button>
+                <button id="mul" class="key key--operator col-4">*</button>
+                <button id="div" class="key key--operator col-4">/</button>
+            </div>
+            <div class="key--row">
+                <button id="number9" class="key key--number col-4">9</button>
+                <button id="number8" class="key key--number col-4">8</button>
+                <button id="number7" class="key key--number col-4">7</button>
+            </div>
+            <div class="key--row">
+                <button id="number6" class="key key--number col-4">6</button>
+                <button id="number5" class="key key--number col-4">5</button>
+                <button id="number4" class="key key--number col-4">4</button>
+            </div>
+            <div class="key--row">
+                <button id="number3" class="key key--number col-4">3</button>
+                <button id="number2" class="key key--number col-4">2</button>
+                <button id="number1" class="key key--number col-4">1</button>
+            </div>
+            <div class="key--row">
+                <button id="number0" class="key key--number col-4">0</button>
+                <button id="dot" class="key key--number key--other col-4">.</button>
+                <button id="equal" class="key key--equal key--other col-4">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
+

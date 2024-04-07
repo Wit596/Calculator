@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+:root {
+    --text-color: white
+}
+
+.calculator {
+    height: 590px;
+    width: 30%;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    margin-top: 20px;
+    border: solid 1px black;
+}
+
+.screen {
+    width: 95%;
+    height:150px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+}
+
+#input {
+    height: 50%;
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#output {
+    height: 50%;
+    width: 100%;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.keys {
+    width: 96%;
+    height: 425px;
+    margin: 10px auto 0 auto;
+}
+
+.key--row {
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    margin: 3px 0;
+}
+
+.col-4 {
+    height: 100%;
+    width: 33.33%;
+    margin: 0 2px
+}
+
+.key {
+    color: var(--text-color);
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.key:hover {
+    opacity: 0.6;
+}
+
+.key--ce {
+    background-color: red;
+}
+
+.key--del {
+    background-color: orange;
+}
+
+.key--operator {
+    background-color:rgb(12, 166, 79);
+}
+
+.key--number {
+    background-color: blue;
+}
+
+.key--other {
+    background-color:rgba(4, 225, 225, 0.96);
+}
+
+
